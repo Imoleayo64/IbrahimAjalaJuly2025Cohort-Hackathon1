@@ -4,14 +4,89 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ibrahim Ajala Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px;
+      background-color: #4a90e2;
+      color: white;
+    }
+
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 15px;
+    }
+
+    section {
+      padding: 40px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
+
 <body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#tools">Tools</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <header>
     <h1>Ibrahim Ajala</h1>
     <p>Multidisciplinary Designer | Aspiring Software Engineer</p>
+    <img src="dc8dcf4c-0c47-42ac-8a06-22bcc767bd45_20250724_234207_0000.jpg" alt="Ibrahim Ajala">
   </header>
-<img src="dc8dcf4c-0c47-42ac-8a06-22bcc767bd45_20250724_234207_0000.jpg" alt="Ibrahim Ajala" style="width: 150px; border-radius: 50%;">  <section id="about">
+
+  <section id="about">
     <h2>About Me</h2>
     <p>
       I’m Ibrahim Ajala, a multi-disciplinary designer with a strong foundation in UI/UX design, graphic design, and video editing.
@@ -24,15 +99,26 @@
 
   <section id="education">
     <h2>Education</h2>
-    <p>Lead City University, Ibadan<br> B.Sc. Chemistry, Expected 2026</p>
+    <p>Lead City University, Ibadan<br>B.Sc. Chemistry, Expected 2026</p>
   </section>
 
   <section id="skills">
     <h2>Skills</h2>
     <ul>
-      <li>Figma, Adobe XD, Canva, CapCut</li>
+      <li>UI/UX Design (Figma, Adobe XD)</li>
+      <li>Graphic Design (Canva, Adobe Suite)</li>
+      <li>Video Editing (CapCut, Premiere Pro)</li>
       <li>HTML, CSS (Learning JavaScript)</li>
       <li>Git & GitHub Basics</li>
+    </ul>
+  </section>
+
+  <section id="tools">
+    <h2>Tools & Technologies</h2>
+    <ul>
+      <li>Figma, Adobe XD, Canva, CapCut</li>
+      <li>Visual Studio Code, Git, GitHub</li>
+      <li>HTML5, CSS3, Responsive Web Design</li>
     </ul>
   </section>
 
@@ -42,18 +128,19 @@
       <li>AI-Powered Travel App</li>
       <li>Health & Wellness Tracker</li>
       <li>Business Website Rebrand</li>
-      <li>This Portfolio (Hackathon Project)</li>
+      <li><strong>This Portfolio (Hackathon Project)</strong></li>
     </ul>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: ajalaibrahimm@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/https://www.linkedin.com/in/ibrahim-ajala</p>
+    <p>Email: <a href="mailto:ajalaibrahimm@gmail.com">ajalaibrahimm@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ibrahim-ajala" target="_blank">linkedin.com/in/ibrahim-ajala</a></p>
   </section>
 
   <footer>
-    <p>© 2025 Ibrahim Ajala. All rights reserved.</p>
+    <p>&copy; 2025 Ibrahim Ajala. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
