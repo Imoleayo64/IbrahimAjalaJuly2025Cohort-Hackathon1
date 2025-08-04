@@ -1,83 +1,92 @@
-# July 2025 Cohort Hackathon 1: Portfolio Challenge 🚀  
+# 🌟 Ibrahim Ajala – Personal Portfolio Website
 
-Welcome to the **PLP Academy Portfolio Challenge!** 🎉  
+Welcome to my personal portfolio, created as part of the **PLP Academy July 2025 Hackathon Challenge**. This website represents who I am, what I’ve learned so far, and the simple projects I’ve built using HTML and CSS.
 
-This README.md file provides all the details you need to successfully complete and submit your project. Let’s get started! 💻  
+🔗 **Live Site:**  
+[https://imoleayo64.github.io/IbrahimAjalaJuly2025Cohort-Hackathon1/](https://imoleayo64.github.io/IbrahimAjalaJuly2025Cohort-Hackathon1/)
 
----  
+---
 
-## 🌟 Project Overview  
-Your challenge is to build a **personal portfolio website** that showcases your skills, background, and achievements. Your portfolio should include:  
+## 📌 About This Project
 
-1. **Programming Languages**: List the programming languages you’re proficient in.  
-2. **About Section**: Share a brief introduction about yourself, your passion, and what drives you.  
-3. **Educational Background**: Provide details of your education and include a downloadable CV.  
-4. **Interests**: Share what excites you about tech and your professional interests.  
-5. **Projects**: Include links to your projects with brief descriptions.  
-6. **Contact Form**: Make it easy for collaborators or employers to reach you.  
+This responsive portfolio website contains:
 
----  
+### 🧑‍💻 About Me
+I’m **Ibrahim Ajala**, a focused and passionate tech learner on the **Software Engineering** path with PLP Academy. This site reflects my growing journey in web development.
 
-## 🛠️ Guidelines  
+---
 
-- **Skills**: Build your portfolio using HTML and CSS.  
-- **Individual Work**: This is a solo challenge—showcase your skills and creativity.
-- **Deskie Team Up**: This is you and your Deskie working together, merging your skills and creativity to come up with something great.
-- **Reference Material**: For additional details and helpful information, refer to [this document](https://docs.google.com/document/d/1v-F-tXa1dwV2w5oMkM2QzAuoFoQYZlOEuT5qeRKDTPA/edit?usp=sharing).  
-- **Submission**: Push your project to a **public GitHub repository** and complete the submission form.  
+## 🖥️ Programming Languages
+- HTML  
+- CSS
 
----  
+---
 
-## 📅 Key Dates  
+## 🎓 Education
+Currently undergoing intensive training in **Software Engineering** at PLP Academy.
 
-**Start Date**: July 30th, 2025, 12:00 PM EAT
-**End Date**: Aug 3rd, 2025, 12:00 PM EAT
-**Award Ceremony**: Aug 8th, 2025, 5:00 PM EAT  
+📄 [**Download My CV**](./ibrahim-ajala-cv.pdf)
 
----  
+---
 
-## 💼 Example Portfolio Sections  
+## 💼 Projects
 
-### 📝 About Me  
-Hi! I’m [Your Name], a passionate web developer with a love for creating functional and beautiful web experiences.  
+### ☁️ Weather App  
+A simple app that fetches weather data based on user input.  
+🔗 [Live App](https://imoleayo64.github.io/Weather-App/)  
+💻 [GitHub Repo](https://github.com/Imoleayo64/Weather-App)
 
-### 🎓 Educational Background  
-I hold a degree in [Your Degree] from [Your University].  
-**[Download My CV](link-to-your-cv)**  
+---
 
-### 💡 Interests  
-- **Web Development**: Exploring modern frameworks and best practices.  
-- **Tech Innovations**: Keeping up with emerging trends in technology.  
+### ✅ Task Manager  
+A task manager app for tracking to-dos and organizing daily activities.  
+🔗 [Live App](https://imoleayo64.github.io/Task-Manager-App/)  
+💻 [GitHub Repo](https://github.com/Imoleayo64/Task-Manager)
 
-### 🛠️ Projects  
-1. **[Project 1](link-to-project1)**: A brief description of your project.  
-2. **[Project 2](link-to-project2)**: Another brief description.  
+---
 
-### 📬 Contact Me  
-Feel free to reach out! [Contact Form](link-to-your-contact-form)  
+### 💬 Quote Generator  
+Generates random motivational quotes with a clean interface.  
+🔗 [Live App](https://imoleayo64.github.io/Quote-Generator/)  
+💻 [GitHub Repo](https://github.com/Imoleayo64/Quote-Generator)
 
----  
+---
 
-## 📁 Submission Instructions  
+## 🔧 Tools & Technologies Used
+- HTML  
+- CSS  
+- GitHub Pages (for deployment)  
+- Font Awesome (for icons)  
+- VS Code  
+- Responsive Design Techniques
 
-1. **Create Your Portfolio**: Build a complete portfolio website with all the required sections.  
-2. **Push to GitHub**: Upload your project to a **public GitHub repository**.  
-3. **Update README**: Ensure your README.md includes details about your portfolio.  
-4. **Submit Your Project**: Use [this form](https://forms.gle/DVvnaM5AzkXPpxYSA) to share your GitHub repo.  
+---
 
----  
+## 🌐 Contact Me
 
-## 🏆 Evaluation Criteria  
+- **LinkedIn:** [linkedin.com/in/ibrahimajala64](https://www.linkedin.com/in/ibrahimajala64)  
+- **Instagram:** [@ibrahimajala_](#) *(Update if needed)*  
+- **Twitter (X):** [@ibrahimajala_](#) *(Update if needed)*
 
-- **Creativity and Ingenuity (20%)**: Original ideas and standout features.  
-- **Code Quality (20%)**: Clean, readable, and efficient code.  
-- **Documentation (15%)**: Informative README and clear code comments.  
-- **Deployment (15%)**: Successfully hosted on a platform like GitHub Pages, Netlify or Vercel.  
-- **Development Process (15%)**: Effective collaboration and project management.  
-- **Technology Stack (15%)**: Usage of responsive, visually appealing tools.
+---
 
+## ✅ Hackathon Checklist
 
----  
+- [x] Live site deployed  
+- [x] 3 working project links  
+- [x] CV uploaded and linked  
+- [x] Clean, mobile-friendly design  
+- [x] Functional navigation and contact section  
+- [x] README file completed
 
-We’re excited to see your unique creations! ✨  
-Happy coding, and good luck! 🍀  
+---
+
+## 📅 Submission Info
+
+- **Challenge:** PLP Academy July 2025 Hackathon  
+- **Track:** Software Engineering  
+- **Submitted by:** Ibrahim Ajala
+
+---
+
+> “If you stay ready, you don’t have to get ready.”
