@@ -1,106 +1,104 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ibrahim Ajala Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a2d9b1c6c5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <nav class="navbar">
+
+  <!-- Navbar -->
+  <nav>
     <div class="nav-container">
-      <h2 class="logo">Ibrahim Ajala</h2>
-      <button class="hamburger" onclick="toggleMenu()">☰</button>
-      <div class="nav-links" id="navLinks">
+      <div class="logo">Ibrahim Ajala</div>
+      <div class="nav-links">
         <a href="#about">About</a>
         <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#tools">Tools</a>
+        <a href="#interests">Interests</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <a href="cv.pdf" download class="cv-button">Download CV</a>
-        <button class="toggle-btn" onclick="toggleMode()">🌙</button>
+        <a href="Ibrahim_Ajala_CV.pdf" class="cv-button" download>Download CV</a>
+        <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
       </div>
     </div>
-  </nav>  <header>
-    <img src="dc8dcf4c-0c47-42ac-8a06-22bcc767bd45_20250724_234207_0000.jpg" alt="Ibrahim Ajala">
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <img src="my-photo.jpg" alt="Ibrahim Ajala">
     <h1>Ibrahim Ajala</h1>
-    <p>Multidisciplinary Designer | Aspiring Software Engineer</p>
+    <p>Front-End Developer | Passionate Learner | Problem Solver</p>
     <div class="social-icons">
-      <a href="https://github.com/imoleayo64" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://twitter.com/ajalaibrahim9" target="_blank"><i class="fab fa-twitter"></i></a>
-      <a href="https://instagram.com/imoleayo6486" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/ibrahimajala64" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com/ibrahimajala64" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="https://www.linkedin.com/in/ibrahimajala64" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
-  </header>  <section id="about" class="section">
+  </header>
+
+  <!-- About -->
+  <section id="about">
     <h2>About Me</h2>
-    <p>
-      I’m Ibrahim Ajala, a multi-disciplinary designer with a strong foundation in UI/UX design, graphic design, and video editing.
-      With a background in Science Laboratory Technology and Chemistry, I blend analytical thinking with creative design to build purposeful, user-focused digital experiences.
-    </p>
-    <p>
-      I’m currently learning software development and exploring how technology and design can come together to solve real-world problems.
-    </p>
-  </section>  <section id="education" class="section">
-    <h2>Education</h2>
-    <p>Lead City University, Ibadan<br>B.Sc. Chemistry, Expected 2026</p>
-  </section>  <section id="skills" class="section">
-    <h2>Skills</h2>
+    <p>Hi! I’m Ibrahim Ajala, a passionate web developer with a love for creating functional and beautiful web experiences. I enjoy learning and building responsive websites using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Educational Background</h2>
+    <p>I hold a [Your Degree] from [Your University or Institution Name Here].</p>
+    <p>Download my CV <a href="Ibrahim_Ajala_CV.pdf" download>here</a>.</p>
+  </section>
+
+  <!-- Interests -->
+  <section id="interests">
+    <h2>Interests</h2>
     <ul>
-      <li>UI/UX Design (Figma, Adobe XD)</li>
-      <li>Graphic Design (Canva, Adobe Suite)</li>
-      <li>Video Editing (CapCut, Premiere Pro)</li>
-      <li>HTML, CSS (Learning JavaScript)</li>
-      <li>Git & GitHub Basics</li>
+      <li>Web Development: Exploring modern frameworks and best practices.</li>
+      <li>Tech Innovations: Keeping up with emerging trends in technology.</li>
+      <li>Problem Solving: Tackling real-world challenges using code.</li>
     </ul>
-  </section>  <section id="tools" class="section">
-    <h2>Tools & Technologies</h2>
-    <ul>
-      <li>Figma, Adobe XD, Canva, CapCut</li>
-      <li>Visual Studio Code, Git, GitHub</li>
-      <li>HTML5, CSS3, Responsive Web Design</li>
-    </ul>
-  </section>  <section id="projects" class="section">
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
     <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>Personal Portfolio Website</h3>
-        <p>A responsive site showcasing my design & coding skills. Built with HTML/CSS for the July 2025 Hackathon.</p>
-        <a href="https://imoleayo64.github.io/IbrahimAjalaJuly2025Cohort-Hackathon1" target="_blank">Live Demo</a>
-        <a href="https://github.com/Imoleayo64/IbrahimAjalaJuly2025Cohort-Hackathon1" target="_blank">GitHub</a>
-      </div>
-      <div class="project-card">
-        <h3>Quote Generator App</h3>
-        <p>Generates random motivational quotes with a click. HTML, CSS & JavaScript.</p>
-        <a href="https://imoleayo64.github.io/Quote-Generator" target="_blank">Live Demo</a>
-        <a href="https://github.com/Imoleayo64/Quote-Generator" target="_blank">GitHub</a>
-      </div>
-      <div class="project-card">
-        <h3>Task Manager App</h3>
-        <p>To-do list app with add and delete features. Built with JS & local storage.</p>
-        <a href="https://imoleayo64.github.io/Task-Manager-App" target="_blank">Live Demo</a>
-        <a href="https://github.com/Imoleayo64/Task-Manager-App" target="_blank">GitHub</a>
-      </div>
-      <div class="project-card">
+    <ul>
+      <li>
         <h3>Weather App</h3>
-        <p>Fetches current weather by city using OpenWeather API. Built with HTML, CSS & JS.</p>
-        <a href="https://imoleayo64.github.io/Weather-App" target="_blank">Live Demo</a>
-        <a href="https://github.com/Imoleayo64/Weather-App" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </section>  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:ajalaibrahimm@gmail.com">ajalaibrahimm@gmail.com</a></p>
+        <p>A weather forecasting app that fetches real-time weather data using API.</p>
+        <a href="https://imoleayo64.github.io/Weather-App/" target="_blank">View Project</a>
+      </li>
+      <li>
+        <h3>Task Manager App</h3>
+        <p>An intuitive task management tool to organize your day.</p>
+        <a href="https://imoleayo64.github.io/Task-Manager-App/" target="_blank">View Project</a>
+      </li>
+      <li>
+        <h3>Quote Generator</h3>
+        <p>A simple app that generates random inspirational quotes.</p>
+        <a href="https://imoleayo64.github.io/Quote-Generator/" target="_blank">View Project</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out via email or connect with me on social media.</p>
+    <p>Email: <a href="mailto:ibrahimajala64@gmail.com">ibrahimajala64@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/ibrahimajala64" target="_blank">linkedin.com/in/ibrahimajala64</a></p>
-  </section>  <footer>
+  </section>
+
+  <!-- Footer -->
+  <footer>
     <p>&copy; 2025 Ibrahim Ajala. All rights reserved.</p>
-  </footer>  <script>
-    function toggleMode() {
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
       document.body.classList.toggle('dark-mode');
     }
-    function toggleMenu() {
-      document.getElementById('navLinks').classList.toggle('show');
-    }
-  </script></body>
+  </script>
+</body>
 </html>
