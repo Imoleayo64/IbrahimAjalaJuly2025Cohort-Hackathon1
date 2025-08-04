@@ -1,29 +1,33 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ibrahim Ajala Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a2d9b1c6c5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <nav class="navbar">
+
+  <!-- Navbar -->
+  <nav>
     <div class="nav-container">
-      <h2 class="logo">Ibrahim Ajala</h2>
-      <button class="hamburger" onclick="toggleMenu()">☰</button>
-      <div class="nav-links" id="navLinks">
+      <div class="logo">Ibrahim Ajala</div>
+      <div class="nav-links">
         <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#tools">Tools</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <a href="cv.pdf" download class="cv-button">Download CV</a>
-        <button class="toggle-btn" onclick="toggleMode()">🌙</button>
+        <a href="cv.pdf" class="cv-button" download>Download CV</a>
+        <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
       </div>
     </div>
-  </nav>  <header>
+  </nav>
+
+  <!-- Header -->
+  <header>
     <img src="dc8dcf4c-0c47-42ac-8a06-22bcc767bd45_20250724_234207_0000.jpg" alt="Ibrahim Ajala">
     <h1>Ibrahim Ajala</h1>
     <p>Multidisciplinary Designer | Aspiring Software Engineer</p>
@@ -33,7 +37,10 @@
       <a href="https://instagram.com/imoleayo6486" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="https://www.linkedin.com/in/ibrahimajala64" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
-  </header>  <section id="about" class="section">
+  </header>
+
+  <!-- About -->
+  <section id="about">
     <h2>About Me</h2>
     <p>
       I’m Ibrahim Ajala, a multi-disciplinary designer with a strong foundation in UI/UX design, graphic design, and video editing.
@@ -42,10 +49,16 @@
     <p>
       I’m currently learning software development and exploring how technology and design can come together to solve real-world problems.
     </p>
-  </section>  <section id="education" class="section">
+  </section>
+
+  <!-- Education -->
+  <section id="education">
     <h2>Education</h2>
     <p>Lead City University, Ibadan<br>B.Sc. Chemistry, Expected 2026</p>
-  </section>  <section id="skills" class="section">
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
     <h2>Skills</h2>
     <ul>
       <li>UI/UX Design (Figma, Adobe XD)</li>
@@ -54,14 +67,20 @@
       <li>HTML, CSS (Learning JavaScript)</li>
       <li>Git & GitHub Basics</li>
     </ul>
-  </section>  <section id="tools" class="section">
+  </section>
+
+  <!-- Tools -->
+  <section id="tools">
     <h2>Tools & Technologies</h2>
     <ul>
       <li>Figma, Adobe XD, Canva, CapCut</li>
       <li>Visual Studio Code, Git, GitHub</li>
       <li>HTML5, CSS3, Responsive Web Design</li>
     </ul>
-  </section>  <section id="projects" class="section">
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
     <h2>Projects</h2>
     <div class="projects-grid">
       <div class="project-card">
@@ -89,18 +108,25 @@
         <a href="https://github.com/Imoleayo64/Weather-App" target="_blank">GitHub</a>
       </div>
     </div>
-  </section>  <section id="contact" class="section">
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:ajalaibrahimm@gmail.com">ajalaibrahimm@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ibrahim-ajala" target="_blank">linkedin.com/in/ibrahim-ajala</a></p>
-  </section>  <footer>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ibrahimajala64" target="_blank">linkedin.com/in/ibrahimajala64</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
     <p>&copy; 2025 Ibrahim Ajala. All rights reserved.</p>
-  </footer>  <script>
-    function toggleMode() {
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
       document.body.classList.toggle('dark-mode');
     }
-    function toggleMenu() {
-      document.getElementById('navLinks').classList.toggle('show');
-    }
-  </script></body>
+  </script>
+
+</body>
 </html>
