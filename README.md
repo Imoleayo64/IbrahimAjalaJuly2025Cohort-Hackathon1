@@ -25,7 +25,7 @@ I’m **Ibrahim Ajala**, a focused and passionate tech learner on the **Software
 ## 🎓 Education
 Currently undergoing intensive training in **Software Engineering** at PLP Academy.
 - Also an undergraduate in **Chemistry** at Lead City University Ibadan.
-📄 [**Download My CV**](./ibrahim-ajala-cv.pdf)
+📄 [**Download My CV**](cv.pdf)
 
 ---
 
