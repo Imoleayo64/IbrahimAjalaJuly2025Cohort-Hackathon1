@@ -24,7 +24,7 @@ I’m **Ibrahim Ajala**, a focused and passionate tech learner on the **Software
 
 ## 🎓 Education
 Currently undergoing intensive training in **Software Engineering** at PLP Academy.
-Also an undergraduate in Chemistry.
+- Also an undergraduate in **Chemistry** at Lead City University Ibadan.
 📄 [**Download My CV**](./ibrahim-ajala-cv.pdf)
 
 ---
@@ -86,7 +86,7 @@ Generates random motivational quotes with a clean interface.
 - **Challenge:** PLP Academy July 2025 Hackathon  
 - **Track:** Software Engineering  
 - **Submitted by:** Ibrahim Ajala
-Thanks to PLP for this amazing opportunity 🥰
+- **Thanks to PLP for this amazing opportunity 🥰**
 ---
 
-> “If you stay ready, you don’t have to get ready.”
+> **“If you stay ready, you don’t have to get ready.”**
